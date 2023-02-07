@@ -1,0 +1,39 @@
+body {
+    
+    background-image: url("/patti_smith1.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+
+h1 {
+    position: relative;
+    color:blueviolet;
+    font-weight: bolder;
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+.about-her {
+    display: flex;
+    width: 400px;
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.vertical-text{
+ float:right;
+ margin-right: 30px;
+ font-size:60px;
+ writing-mode: vertical-rl;
+ margin-bottom: 300px;
+ padding-right: 40px;
+ text-align: start;
+ 
+}

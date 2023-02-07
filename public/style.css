@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: white;
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(/pattibackground.png);
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 100px;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.main-title span {
+    color:yellow;
+}
+
+.about,
+.music-works,
+.poems{
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: center; 
+}
+
+.about a,
+.music-works a,
+.poems a {
+    
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    color:yellow;
+    font-size: 50px;   
+}
+
+.about a:hover {
+   text-decoration: overline;
+   color:blueviolet;
+  }
+
+.music-works a:hover{
+   text-decoration: overline; 
+   color:orange;
+}
+
+.poems a:hover {
+   text-decoration: overline;
+   color:blueviolet;
+}
+
+.about a {
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: bolder;
+ }
+
+.music-works a {
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.poems a {
+    margin-right: 10px;
+    margin-top: 30px; 
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.about-img {
+    height: 50vh;
+    width: 50vh;
+    margin-right: 40px;
+    border: 5px solid white;
+   
+}
+
+.music-img {
+    height: 50vh;
+    width: 50vh;
+    margin-right: 40px;
+    border: 5px solid white;
+    
+}
+
+.poems-img {
+    height: 50vh;
+    width: 50vh;
+    border: 5px solid white;
+    
+}
+
+.record-img {
+    height:80vh;
+    width: 150vh;
+    position: relative;
+    display:flex;
+    margin-left:170px;
+    
+    
+}
+
+.listen-section a {
+    position:absolute;
+    display: flex;
+    color:yellow;
+    font-size: 100px;
+    font-weight: bolder;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    margin-right: 400px;
+    
+    
+}
+
+.listen-section a:hover {
+    color:black;
+}
+
+
+.listen-section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    
+}

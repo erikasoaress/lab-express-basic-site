@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(/pattireading.jpg);
+    background-size:cover;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    
+    margin-bottom: 100px;
+}
+
+.main-section p {
+    display: flex;
+    align-content: space-between;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 2px white;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: yellow;
+}
+
+
+.book1-img {
+    height: 50vh;
+    width: 50vh;
+    margin-right: 40px;
+    border: 5px solid yellow;
+   
+}
+
+.book2-img {
+    height: 50vh;
+    width: 50vh;
+    margin-right: 40px;
+    border: 5px solid yellow;
+    
+}
+
+.book3-img {
+    height: 50vh;
+    width: 50vh;
+    border: 5px solid yellow;
+    
+}
+
+
+
